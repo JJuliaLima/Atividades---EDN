@@ -9,3 +9,13 @@ em uma das seguintes categorias:
 *Idoso (60 anos ou mais).
 '''
 
+idade_usuario = int(input('Digite sua idade: '))
+
+if idade_usuario <= 13:
+    print('Você é uma criança')
+elif idade_usuario <= 17:
+    print('Você é adolescente')
+elif idade_usuario <= 59:
+    print('Você é adulto')
+else:
+    print('Você é idoso')
